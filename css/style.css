@@ -106,7 +106,12 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
+        align-items: center;
+        position: sticky;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
     }
     .nav_links{
         display: flex;
@@ -114,12 +119,13 @@ header{
     }
 
     /* 12 */
-    body > header {
+    /* body > header {
         position: sticky;
         width: 100%;
         top: 0px;
-
-    }
+        left: 0px;
+        z-index: 1;
+    } */
     /* 13 */
     .pricing{
         display: flex;
